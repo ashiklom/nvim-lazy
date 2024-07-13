@@ -15,7 +15,7 @@ return {
           buflisted = true,
           repl_definition = {
             python = pyrepl,
-            r = { command = { "R" } },
+            r = { command = { "R", "--no-save" } },
             julia = { command = { "julia" } },
             sh = { command = { "bash" } },
             ps1 = { command = { "/mnt/c/Windows/System32/WindowsPowerShell/v1.0/powershell.exe" } },
