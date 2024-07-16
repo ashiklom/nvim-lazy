@@ -21,4 +21,8 @@ return {
       popup = { kind = "split_above" },
     },
   },
+  {
+    "imsnif/kdl.vim",
+    ft = "kdl"
+  }
 }
