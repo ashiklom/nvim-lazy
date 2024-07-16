@@ -24,10 +24,30 @@ return {
   {
     "imsnif/kdl.vim",
     ft = "kdl"
-  }
   },
   {
     "JuliaEditorSupport/julia-vim",
     lazy = false
   },
+  {
+    'echasnovski/mini.splitjoin',
+    opts = {
+      mappings = {
+        toggle = 'g=',
+        split = '',
+        join = ''
+      }
+    }
+  },
+    -- config = function()
+    --   local ms = require('mini.splitjoin')
+    --   ms.setup{
+    --     mappings = {
+    --       toggle = 'g[',
+    --       split = 'g{',
+    --       join = 'g}'
+    --     }
+    --   }
+    --   vim.keymap.set('i', '<C-e>', ms.toggle, {desc="Toggle splitjoin"})
+    -- end
 }
