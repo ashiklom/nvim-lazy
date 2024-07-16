@@ -25,4 +25,9 @@ return {
     "imsnif/kdl.vim",
     ft = "kdl"
   }
+  },
+  {
+    "JuliaEditorSupport/julia-vim",
+    lazy = false
+  },
 }
