@@ -6,3 +6,7 @@ vim.g.maplocalleader = " m"
 
 vim.opt.relativenumber = false
 vim.g.autoformat = false
+
+-- Python should use pyright and ruff (not ruff_lsp)
+vim.g.lazyvim_python_ruff = "ruff"
+vim.g.lazyvim_python_lsp = "pyright"
