@@ -5,7 +5,8 @@ return {
       local iron = require("iron.core")
       local pyrepl = {
         -- `python -m IPython` ensures we're always using the curren venv's IPython
-        command = { "python", "-m", "IPython", "--no-autoindent", "--no-confirm-exit" },
+        -- command = { "python", "-m", "IPython", "--no-autoindent", "--no-confirm-exit" },
+        command = { "ipython", "--no-autoindent", "--no-confirm-exit" },
         format = require("iron.fts.common").bracketed_paste,
       }
 
